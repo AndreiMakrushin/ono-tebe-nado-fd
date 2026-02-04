@@ -242,7 +242,7 @@ ul li {
   flex-direction: column;
   gap: 24px;
   font-size: 20px;
-  line-height: 1.3;
+  line-height: 1.2;
   font-weight: 400;
   word-spacing: 1px;
 }
@@ -286,10 +286,9 @@ footer {
   display: flex;
   flex-direction: column;
   justify-self: start;
-  line-height: 1.3;
+  line-height: 1.334;
 }
 
-.footer__address p:nth-child(2) {
-  margin-left: 1px;
-  margin-top: 1px;
+.footer__address p {
+  margin: 1px 0 0 1px;
 }
